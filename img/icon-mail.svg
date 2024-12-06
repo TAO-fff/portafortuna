@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="home" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #221714;
+      }
+    </style>
+  </defs>
+  <g id="envelope">
+    <path class="cls-1" d="M10,21.25v13.12c0,1.04.84,1.88,1.88,1.88h26.25c1.04,0,1.88-.84,1.88-1.88v-13.12l-15,7.5-15-7.5Z"/>
+    <path class="cls-1" d="M38.12,13.75H11.88c-1.04,0-1.88.84-1.88,1.88v1.88l15,7.5,15-7.5v-1.88c0-1.04-.84-1.88-1.88-1.88Z"/>
+  </g>
+</svg>
