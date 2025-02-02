@@ -9,6 +9,11 @@
       --font-en-heading: "Aboreto", cursive; /* 英字見出しフォント */
       --font-en-cursive: "Qwitcher Grypen", serif; /* 筆記体 英語タイトル用 */
 
+      /* font size */
+      --font-size-text: 1.125rem;
+      --font-size-heading: 3rem;
+
+
         /* Font Weight */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
@@ -35,7 +40,7 @@
   
   body {
     color: var(--color-text);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: var(--font-ja);
   }
   
