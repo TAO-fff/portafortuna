@@ -43,7 +43,7 @@
     <header class="header">
       <nav class="header-nav l-container">
         <ul>
-          <li class="header-item nav-item"><a href="">ホーム</a></li>
+          <li class="header-item nav-item"><a href="./index.html">ホーム</a></li>
           <li class="header-item nav-item"><a href="">メニュー</a></li>
           <li class="header-item nav-item"><a href="">プロフィール</a></li>
           <li class="header-item nav-item"><a href="">お客様の声</a></li>
@@ -64,8 +64,8 @@
     </div>
 
     <!-- profile コンテンツ -->
-    <div class="l-container">
-      <section class="profile">
+    <section class="profile">
+      <div class="l-container">
         <!-- 名前 -->
         <div class="profile__wrap">
           <div class="profile__wrap-txt">
@@ -79,73 +79,138 @@
                 </h2>
               </div>
             </div>
+          </div>
+          
 
-            <!-- 資格 -->
-            <div class="profile__img-container">
-              <div class="profile__img-position">
-                <!-- 資格テキスト -->
-                <div class="profile__details profile__contents-lcontainer">
-                  <div
-                    class="profile__qualifications profile__txt-lcontainer profile__details-back"
-                  >
-                    <h2 class="profile__section-title inverse-txt">保有資格</h2>
+          <!-- 資格 -->
+          <div class="profile__img-container">
+            <div class="profile__img-position">
+              <!-- 資格テキスト -->
+              <div class="profile__details profile__contents-lcontainer">
+                <div
+                  class="profile__qualifications profile__txt-lcontainer profile__details-back"
+                >
+                  <h2 class="profile__section-title inverse-txt">保有資格</h2>
+                  <ul class="profile__list">
+                    <li class="profile__list-item inverse-txt">
+                      顔タイプ診断1級アドバイザー
+                    </li>
+                    <li class="profile__list-item inverse-txt">
+                      顔タイプ診断®メンズアドバイザー
+                    </li>
+                    <li class="profile__list-item inverse-txt">
+                      パーソナルカラー診断（Sci/ART 12分類）
+                    </li>
+                    <li class="profile__list-item inverse-txt">
+                      骨格診断アドバイザー
+                    </li>
+                    <li class="profile__list-item inverse-txt">
+                      イメージコントロールメイクアドバイザー
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- タイプ -->
+                <div class="profile__content">
+                  <div class="profile__diagnosis profile__txt-lcontainer">
+                    <h2 class="profile__section-title">診断タイプ</h2>
                     <ul class="profile__list">
-                      <li class="profile__list-item inverse-txt">
-                        顔タイプ診断1級アドバイザー
+                      <li class="profile__list-item">
+                        顔タイプ：ソフトエレガント
                       </li>
-                      <li class="profile__list-item inverse-txt">
-                        顔タイプ診断®メンズアドバイザー
+                      <li class="profile__list-item">
+                        パーソナルカラー：ソフトオータム（サイアート12分類）
                       </li>
-                      <li class="profile__list-item inverse-txt">
-                        パーソナルカラー診断（Sci/ART 12分類）
-                      </li>
-                      <li class="profile__list-item inverse-txt">
-                        骨格診断アドバイザー
-                      </li>
-                      <li class="profile__list-item inverse-txt">
-                        イメージコントロールメイクアドバイザー
+                      <li class="profile__list-item">骨格診断：ストレート</li>
+                      <li class="profile__list-item">
+                        （7タイプ：ドラマチックタイプ、12タイプ：メリハリナチュラル）
                       </li>
                     </ul>
                   </div>
+                </div>
 
-                  <!-- タイプ -->
-                  <div class="profile__content">
-                    <div class="profile__diagnosis profile__txt-lcontainer">
-                      <h2 class="profile__section-title">診断タイプ</h2>
-                      <ul class="profile__list">
-                        <li class="profile__list-item">
-                          顔タイプ：ソフトエレガント
-                        </li>
-                        <li class="profile__list-item">
-                          パーソナルカラー：ソフトオータム（サイアート12分類）
-                        </li>
-                        <li class="profile__list-item">骨格診断：ストレート</li>
-                        <li class="profile__list-item">
-                          （7タイプ：ドラマチックタイプ、12タイプ：メリハリナチュラル）
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <!-- プロフィール画像 -->
-                  <div class="profile__wrap-img">
-                    <div class="profile__photo">
-                      <span class="profile-height">150cm</span>
-                      <span class="profile-age">50S</span>
-                      <img src="./img/analist-name.png" alt="SAYAの写真" />
-                    </div>
+                <!-- プロフィール画像 -->
+                <div class="profile__wrap-img">
+                  <div class="profile__photo">
+                    <span class="profile-height">150cm</span>
+                    <span class="profile-age">50S</span>
+                    <img src="./img/analist-name.png" alt="SAYAの写真" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <!-- outfit コンテンツ -->
+    <section class="outfit">
+      <div class="l-container">
+        <div class="profile__wrap">
+          <div class="profile__outfit-wrap">
+            <!-- outfit画像 -->
+            <div class="profile__outfit-img">
+              <div class="profile__outfit-img-ttl">outfit</div>
+              <div class="profile__photo-outfit">
+                <img
+                  src="./img/Footer/LINE_ALBUM_サイト掲載用_241224654_19 1.svg"
+                  alt="SAYAの写真"
+                />
+              </div>
+            </div>
+            <!-- outfit txt -->
+            <div class="profile__outfit-reason">
+              <!-- reason left -->
+              <div class="profile__outfit-left-wrap profile__txt-lcontainer">
+                <div class="profile__outfit-left">
+                  <h3 class="profile__section-title profile_outfit-ttl">
+                    得意なスタイルは<br />キレイめ大人カジュアル
+                  </h3>
+                </div>
+                <div class="profile__outfit-txt">
+                  <p>
+                    年齢を重ねていくうちに、カジュアルが似合いづらくなってきたと感じたことはありませんか？大人世代になるとカジュアルを着こなすために、コーディネートで抑えるぽいとがいくつもあります。大人世代でカジュアルがお好きな方はぜひ、私にお任せください。
+                  </p>
+                </div>
+              </div>
+
+              <!-- reason center -->
+              <div class="profile__outfit-center-wrap profile__txt-lcontainer">
+                <div class="profile__outfit-center">
+                  <h3 class="profile__section-title profile_outfit-ttl">
+                    ワントーンコーデでも<br />地味にならないスタイリング
+                  </h3>
+                </div>
+                <div class="profile__outfit-txt">
+                  <p>
+                    顔タイプのソフトエレガントは、得意なテイストがシンプルなワントーンコーデ。同じソフトエレガントの方で、なぜかいつも地味に見えてしまうという悩みを抱えていませんか？同じソフトエレガントだからこそ、ワントーンコーデでも具体的に垢抜けるテクニックをお伝えできます。
+                  </p>
+                </div>
+              </div>
+
+              <!-- reason right -->
+              <div class="profile__outfit-right-wrap profile__txt-lcontainer">
+                <div class="profile__outfit-right">
+                  <h3 class="profile__section-title profile_outfit-ttl">
+                    プロも学びに来る<br />小物テクニックに自信あり
+                  </h3>
+                </div>
+                <div class="profile__outfit-txt">
+                  <p>
+                    顔タイプのソフトエレガントは、得意なテイストがシンプルなワントーンコーデ。同じソフトエレガントの方で、なぜかいつも地味に見えてしまうという悩みを抱えていませんか？同じソフトエレガントだからこそ、ワントーンコーデでも具体的に垢抜けるテクニックをお伝えできます。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- 実績コンテンツ -->
-    <div class="l-container">
-      <section class="experience">
+    <section class="experience">
+      <div class="l-container">
         <div class="profile__wrap">
           <div class="profile__experience-wrap">
             <!-- 実績画像 -->
@@ -223,76 +288,12 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
-
-    <!-- outfit コンテンツ -->
-    <div class="l-container">
-      <section class="outfit">
-        <div class="profile__wrap">
-          <div class="profile__outfit-wrap">
-            <!-- outfit画像 -->
-            <div class="profile__outfit-img">
-              <div class="profile__outfit-img-ttl">outfit</div>
-              <div class="profile__photo-outfit">
-                <img
-                  src="./img/Footer/LINE_ALBUM_サイト掲載用_241224654_19 1.svg"
-                  alt="SAYAの写真"
-                />
-              </div>
-            </div>
-            <!-- outfit txt -->
-            <div class="profile__outfit-reason">
-              <!-- reason left -->
-              <div class="profile__outfit-left-wrap profile__txt-lcontainer">
-                <div class="profile__outfit-left">
-                  <h3 class="profile__section-title profile_outfit-ttl">
-                    得意なスタイルは<br />キレイめ大人カジュアル
-                  </h3>
-                </div>
-                <div class="profile__outfit-txt">
-                  <p>
-                    年齢を重ねていくうちに、カジュアルが似合いづらくなってきたと感じたことはありませんか？大人世代になるとカジュアルを着こなすために、コーディネートで抑えるぽいとがいくつもあります。大人世代でカジュアルがお好きな方はぜひ、私にお任せください。
-                  </p>
-                </div>
-              </div>
-
-              <!-- reason center -->
-              <div class="profile__outfit-center-wrap profile__txt-lcontainer">
-                <div class="profile__outfit-center">
-                  <h3 class="profile__section-title profile_outfit-ttl">
-                    ワントーンコーデでも<br />地味にならないスタイリング
-                  </h3>
-                </div>
-                <div class="profile__outfit-txt">
-                  <p>
-                    顔タイプのソフトエレガントは、得意なテイストがシンプルなワントーンコーデ。同じソフトエレガントの方で、なぜかいつも地味に見えてしまうという悩みを抱えていませんか？同じソフトエレガントだからこそ、ワントーンコーデでも具体的に垢抜けるテクニックをお伝えできます。
-                  </p>
-                </div>
-              </div>
-
-              <!-- reason right -->
-              <div class="profile__outfit-right-wrap profile__txt-lcontainer">
-                <div class="profile__outfit-right">
-                  <h3 class="profile__section-title profile_outfit-ttl">
-                    プロも学びに来る<br />小物テクニックに自信あり
-                  </h3>
-                </div>
-                <div class="profile__outfit-txt">
-                  <p>
-                    顔タイプのソフトエレガントは、得意なテイストがシンプルなワントーンコーデ。同じソフトエレガントの方で、なぜかいつも地味に見えてしまうという悩みを抱えていませんか？同じソフトエレガントだからこそ、ワントーンコーデでも具体的に垢抜けるテクニックをお伝えできます。
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- Q&A -->
-    <div class="l-container">
-      <section class="outfit">
+    <section class="outfit">
+      <div class="l-container">
         <div class="profile__wrap">
           <div class="profile__qa-wrap">
             <!-- qa項目 -->
@@ -353,8 +354,8 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <!-- 以下、前ページ共通 -->
     <!-- reserve -->
@@ -381,21 +382,21 @@
             <li class="footer__item nav-item"><a href="">プロフィール</a></li>
             <li class="footer__item nav-item"><a href="">お客様の声</a></li>
             <li class="footer__item nav-item"><a href="">お問い合わせ</a></li>
+            <li class="footer__item nav-item">
+              <a class="footer__nav-sns-link" href="">Instagram </a>
+            </li>
           </ul>
-          <div class="footer__copyright">
-            <p>©2024 porta fortuna プライバシーポリシー</p>
+          <div class="footer__nav-sns">
+              <a class="footer__nav-sns-link" href=""
+                ><img src="./img/Vector.png" alt="Instagram" />
+              </a>
           </div>
         </nav>
       </div>
+      <div class="footer__copyright">
+        <p>©2024 porta fortuna プライバシーポリシー</p>
+      </div>
 
-      <!-- sns -->
-      <ul class="footer__nav-sns">
-        <li class="footer__nav-sns-item">
-          <a class="footer__na-sns-link" href=""
-            ><img src="./img/Vector.png" alt="Instagram" />
-          </a>
-        </li>
-      </ul>
     </footer>
   </body>
 </html>
